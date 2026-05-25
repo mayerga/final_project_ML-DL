@@ -1,0 +1,20 @@
+# Entornos virtuales
+.venv/
+venv/
+env*/
+
+# Archivos de datos pesados (excepto el archivo raw original si no excede el límite)
+data/processed/*
+!data/processed/.gitkeep
+
+# Modelos entrenados y serializados (pesados o temporales)
+models/*
+!models/.gitkeep
+*.pkl
+*.pickle
+*.h5
+
+# Archivos temporales de Python y Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

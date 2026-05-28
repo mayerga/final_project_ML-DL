@@ -1,5 +1,6 @@
 # Entornos virtuales
 proyecto_mldl/
+.venv/
 
 # Archivos de datos pesados (excepto el archivo raw original si no excede el límite)
 data/processed/*
